@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var userdetails = {
+
+            mobile: '7992275159',
+
+            email: 'pintuprasad4312@gmail.com'
+        }
+        function SubmitClick() {
+
+            var user = document.getElementById("textUser").value;
+            if (user === userdetails.mobile) {
+
+                document.write(`otp sent to your mobile ${user}`)
+
+            } else if (user === userdetails.email) {
+
+
+                document.write(`login your successfully.... ${user}`)
+            }
+            else if (user === userdetails.password) {
+
+                document.write(`successfully your correct password ${user}`)
+            }
+
+
+            else {
+
+                document.write(`${user} user not found `)
+
+            }
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <dl>
+        <dt>your Mobile or Email </dt>
+        <dd><input type="text" id="textUser"></dd>
+        <br>
+        <dt>your password </dt>
+        <dd><input type="value" id="value"></dd>
+
+    </dl>
+    <button onclick="SubmitClick()">Submit </button>
+</body>
+
+</html>
