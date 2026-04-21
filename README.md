@@ -1,2 +1,13 @@
-# simple-login-validation
-A simple login authentication system using HTML and JavaScript that validates mobile number, email, and password.
+# Login Validation Project
+
+This is a simple login validation project using HTML and JavaScript.
+
+## Features
+- Check mobile number
+- Check email
+- Check password
+- Display message based on input
+
+## Technology Used
+- HTML
+- JavaScript
